@@ -1,5 +1,3 @@
-import json
-
 #SETUP LOGGING
 import logging
 from pythonjsonlogger import jsonlogger
@@ -15,7 +13,7 @@ def process_event_msg(event):
     """process sns"""
 
     LOG.info(f"Recieved event {event}")
-    message = json.loads(event['Records'][0]['Sns']["Message"])
+    message = event['Records'][0]['Sns']["Message"]
     LOG.info(f"Received paylod: MESSAGE {message}")
     return message
 
