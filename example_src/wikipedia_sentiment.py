@@ -1,9 +1,3 @@
-#first_names = ['henry', 'rolly', 'molly', 'frank', 'david', 'steven', 'gwen', 'arthur']
-#last_names = ['smith', 'brocker', 'stein', 'bach', 'spencer', 'de wilde', 'mason', 'davis']
-#ages = [43, 23, 78, 56, 26, 14, 46, 92]
-#df = pd.DataFrame({ 'first': first_names, 'last': last_names, 'age': ages})
-#df
-
 import pandas as pd
 import wikipedia
 import boto3
