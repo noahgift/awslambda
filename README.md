@@ -5,6 +5,8 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 * [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb)
 * [PowerPoint Slides](https://github.com/noahgift/awslambda/blob/master/beginning_lambda.pptx?raw=true)
+* [Designed for "Beginner's Guide to Writing AWS Lambda Functions in Python"](https://www.safaribooksonline.com/live-training/courses/beginners-guide-to-writing-aws-lambda-functions-in-python/0636920259206/). 
+
 
 ## Pragmatic AI Labs
 ![Pragmatic AI Labs](https://paiml.com/images/logo_with_slogan_white_background.png)
