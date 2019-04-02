@@ -21,6 +21,7 @@ These notebooks and tutorials were produced by [Pragmatic AI Labs](https://paiml
 *  Watching video [AWS Certified Machine Learning-Speciality](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597)
 *  Watching learning path [Essential Machine Learning and Pragmatic AI](https://learning.oreilly.com/learning-paths/learning-path-essential/9780135747193/)
 * Purchasing video [Essential Machine Learning and AI with Python and Jupyter Notebook- Purchase Video](http://www.informit.com/store/essential-machine-learning-and-ai-with-python-and-jupyter-9780135261095)
+* Purchasing video [AWS Machine Learning Certification](http://www.pearsonitcertification.com/store/aws-certified-machine-learning-specialty-ml-s-complete-9780135556511)
 *   Register for an [upcoming online training on Safari](https://www.safaribooksonline.com/search/?query=noah%20gift).
 *   Browsing [Pragmatic AI Source Code](https://github.com/noahgift/pragmaticai)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
