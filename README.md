@@ -30,11 +30,4 @@ These notebooks and tutorials were produced by [Pragmatic AI Labs](https://paiml
 *   Reading content on [Pragmatic AI Medium](https://medium.com/pragmatic-ai-labs)
 *   Hear more about the some of the topics covered in [TWIML podcast](https://twimlai.com/twiml-talk-158-growth-hacking-sports-w-machine-learning-with-noah-gift/)
 
-### SSH access
-
-If you want to edit your own repo, setup ssh-keys to github
-
-```bash
-ssh-keygen -t rsa
-
 ```
