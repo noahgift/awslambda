@@ -30,7 +30,7 @@ def sqs_queue_resource(queue_name):
     Usage example:
     In [2]: queue = sqs_queue_resource("dev-job-24910")
     In [4]: queue.attributes
-    Out[4]: 
+    Out[4]:
     {'ApproximateNumberOfMessages': '0',
      'ApproximateNumberOfMessagesDelayed': '0',
      'ApproximateNumberOfMessagesNotVisible': '0',
@@ -65,7 +65,7 @@ def sqs_approximate_count(queue_name):
 
     queue = sqs_queue_resource(queue_name)
     attr = queue.attributes
-    num_message = int(attr['ApproximateNumberOfMessages']) 
+    num_message = int(attr['ApproximateNumberOfMessages'])
     num_message_not_visible = int(attr['ApproximateNumberOfMessagesNotVisible'])
     queue_value = sum([num_message, num_message_not_visible])
     sum_msg = """'ApproximateNumberOfMessages' and 'ApproximateNumberOfMessagesNotVisible' = *** [%s] *** for QUEUE NAME: [%s]""" %\
@@ -110,7 +110,7 @@ def create_sentiment(row):
     LOG.info(f"Processing {row}")
     comprehend = boto3.client(service_name='comprehend')
     payload = comprehend.detect_sentiment(Text=row, LanguageCode='en')
-    LOG.debug(f"Found Sentiment: {payload}")    
+    LOG.debug(f"Found Sentiment: {payload}")
     sentiment = payload['Sentiment']
     return sentiment
 
@@ -122,13 +122,14 @@ def apply_sentiment(df, column="wikipedia_snippit"):
 
 ### S3 ###
 
-def write_s3(df, bucket):
+def write_s3(df, bucket, name):
     """Write S3 Bucket"""
 
     csv_buffer = StringIO()
     df.to_csv(csv_buffer)
     s3_resource = boto3.resource('s3')
-    res = s3_resource.Object(bucket, 'fang_sentiment.csv').\
+    filename = f"{name}_sentiment.csv"
+    res = s3_resource.Object(bucket, filename).\
         put(Body=csv_buffer.getvalue())
     LOG.info(f"result of write to bucket: {bucket} with:\n {res}")
 
@@ -141,17 +142,17 @@ def lambda_handler(event, context):
     receipt_handle  = event['Records'][0]['receiptHandle'] #sqs message
     #'eventSourceARN': 'arn:aws:sqs:us-east-1:561744971673:producer'
     event_source_arn = event['Records'][0]['eventSourceARN']
-    
+
     names = [] #Captured from Queue
-    
+
     # Process Queue
     for record in event['Records']:
         body = json.loads(record['body'])
         company_name = body['name']
-        
+
         #Capture for processing
         names.append(company_name)
-        
+
         extra_logging = {"body": body, "company_name":company_name}
         LOG.info(f"SQS CONSUMER LAMBDA, splitting sqs arn with value: {event_source_arn}",extra=extra_logging)
         qname = event_source_arn.split(":")[-1]
@@ -159,14 +160,14 @@ def lambda_handler(event, context):
         LOG.info(f"Attemping Deleting SQS receiptHandle {receipt_handle} with queue_name {qname}", extra=extra_logging)
         res = delete_sqs_msg(queue_name=qname, receipt_handle=receipt_handle)
         LOG.info(f"Deleted SQS receipt_handle {receipt_handle} with res {res}", extra=extra_logging)
-    
+
     # Make Pandas dataframe with wikipedia snippts
     LOG.info(f"Creating dataframe with values: {names}")
     df = names_to_wikipedia(names)
-    
+
     # Perform Sentiment Analysis
     df = apply_sentiment(df)
     LOG.info(f"Sentiment from FANG companies: {df.to_dict()}")
-    
+
     # Write result to S3
-    write_s3(df=df, bucket="fangsentiment")
+    write_s3(df=df, bucket="fangsentiment", name=names)
