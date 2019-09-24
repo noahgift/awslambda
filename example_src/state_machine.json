@@ -1,0 +1,16 @@
+{
+    "Comment": "This is a Producer Pipeline that grabs records from DynamoDB and populates SQS",
+    "StartAt": "FetchDynamo",
+    "States": {
+      "FetchDynamo": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-1:561744971673:function:cloud9-producersept24-producersept24-F8TNLNEMMRAT",
+        "Next": "Finish"
+      },
+        "Finish": {
+        "Type": "Pass",
+        "Result": "Finished",
+        "End": true
+      }
+    } 
+}
