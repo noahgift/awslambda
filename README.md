@@ -8,6 +8,7 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 * [Designed for "Beginner's Guide to Writing AWS Lambda Functions in Python:  Safari Live Online Training"](https://www.safaribooksonline.com/live-training/courses/beginners-guide-to-writing-aws-lambda-functions-in-python/0636920259206/). 
 * [Register for next training](https://learning.oreilly.com/live-training/courses/beginners-guide-to-writing-aws-lambda-functions-in-python/0636920260646/)
 
+[![Serverless Data Engineering Architecture](https://img.youtube.com/vi/hU0xvNL1MPs/0.jpg)](https://www.youtube.com/watch?v=hU0xvNL1MPs)
 
 ## Pragmatic AI Labs
 ![Pragmatic AI Labs](https://paiml.com/images/logo_with_slogan_white_background.png)
