@@ -11,6 +11,10 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 [![Serverless Data Engineering Architecture](https://img.youtube.com/vi/hU0xvNL1MPs/0.jpg)](https://www.youtube.com/watch?v=hU0xvNL1MPs)
 
+* Learn to write an AWS Lambda Function in Python in Five Minutes:
+
+[![Learn to write an AWS Lambda Function in Python in Five Minutes](https://img.youtube.com/vi/AlRUeNFuObk/0.jpg)](https://youtu.be/AlRUeNFuObk)
+
 ## Pragmatic AI Labs
 ![Pragmatic AI Labs](https://paiml.com/images/logo_with_slogan_white_background.png)
 
