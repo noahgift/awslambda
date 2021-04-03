@@ -5,16 +5,6 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 * [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb)
 * [PowerPoint Slides](https://github.com/noahgift/awslambda/blob/master/beginning_lambda.pptx?raw=true)
-* [Designed for "Beginner's Guide to Writing AWS Lambda Functions in Python:  Safari Live Online Training"](https://www.safaribooksonline.com/live-training/courses/beginners-guide-to-writing-aws-lambda-functions-in-python/0636920259206/). 
-* [Register for next training](https://learning.oreilly.com/live-training/courses/beginners-guide-to-writing-aws-lambda-functions-in-python/0636920260646/)
-* Watch the serverless Data Engineering Architecture video:
-
-[![Serverless Data Engineering Architecture](https://img.youtube.com/vi/hU0xvNL1MPs/0.jpg)](https://www.youtube.com/watch?v=hU0xvNL1MPs)
-
-* Learn to write an AWS Lambda Function in Python in Five Minutes:
-
-[![Learn to write an AWS Lambda Function in Python in Five Minutes](https://img.youtube.com/vi/AlRUeNFuObk/0.jpg)](https://youtu.be/AlRUeNFuObk)
-
 
 ## Hello World Build and Deploy
 
@@ -42,6 +32,15 @@ Then curl `curl http://127.0.0.1:3000/hello`
 ## Functions are Units of Work:  Input, Work, Return
 
 [![Input, Work, Return](https://img.youtube.com/vi/P6wjrRpzJ_k/0.jpg)](https://www.youtube.com/watch?v=P6wjrRpzJ_k)
+
+## Other Videos 
+
+[![Serverless Data Engineering Architecture](https://img.youtube.com/vi/hU0xvNL1MPs/0.jpg)](https://www.youtube.com/watch?v=hU0xvNL1MPs)
+
+* Learn to write an AWS Lambda Function in Python in Five Minutes:
+
+[![Learn to write an AWS Lambda Function in Python in Five Minutes](https://img.youtube.com/vi/AlRUeNFuObk/0.jpg)](https://youtu.be/AlRUeNFuObk)
+
 
 ## Diagram
 
