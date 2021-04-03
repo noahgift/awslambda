@@ -16,12 +16,24 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 [![Learn to write an AWS Lambda Function in Python in Five Minutes](https://img.youtube.com/vi/AlRUeNFuObk/0.jpg)](https://youtu.be/AlRUeNFuObk)
 
 
-## Hello World
+## Hello World Build and Deploy
 
 1.  `sam init`
 2.  `sam build`
 3.  `sam deploy --guided`
 
+## Deploy and Testing (Key Concepts)
+
+Test two ways:  
+
+`sam local invoke`
+`sam local start-api`
+
+Then curl `curl http://127.0.0.1:3000/hello`
+
+* API Gateway
+* CloudWatch Logs
+* IAM Security settings
 
 ## Build a Serverless Data Engineering Pipeline Walkthrough
 
