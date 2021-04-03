@@ -15,6 +15,14 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 [![Learn to write an AWS Lambda Function in Python in Five Minutes](https://img.youtube.com/vi/AlRUeNFuObk/0.jpg)](https://youtu.be/AlRUeNFuObk)
 
+
+## Hello World
+
+1.  `sam init`
+2.  `sam build`
+3.  `sam deploy --guided`
+
+
 ## Build a Serverless Data Engineering Pipeline Walkthrough
 
 [![Build a Serverless Data Engineering Walkthrough](https://img.youtube.com/vi/zXxdbtamoa4/0.jpg)](https://www.youtube.com/watch?v=zXxdbtamoa4)
