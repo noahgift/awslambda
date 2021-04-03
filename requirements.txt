@@ -1,4 +1,5 @@
 pylint
 wikipedia
-python-json-logger
+python - json - logger
 boto3
+black
