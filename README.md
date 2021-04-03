@@ -5,6 +5,7 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 * [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb)
 * [PowerPoint Slides](https://github.com/noahgift/awslambda/blob/master/beginning_lambda.pptx?raw=true)
+* [Related Project Serverless Cookbook](https://github.com/noahgift/serverless-cookbook)
 
 ## Hello World Build and Deploy
 
