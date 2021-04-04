@@ -6,9 +6,10 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 * [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb)
 * [PowerPoint Slides](https://github.com/noahgift/awslambda/blob/master/beginning_lambda.pptx?raw=true)
 * [Related Project Serverless Cookbook](https://github.com/noahgift/serverless-cookbook)
-* [AWS Lambda 2021 Playlist of "How To"](https://www.youtube.com/playlist?list=PLdfopzFjkPz-xDXqAAc0Jrh1eumV4HNmX)
 
-
+## Zero to One: AWS Lambda in Python and SAM 
+![zero-to-one](https://user-images.githubusercontent.com/58792/113515280-81eae580-9541-11eb-844e-e6e2ce96d53b.jpg)
+* [AWS Lambda 2021 YouTube Playlist of "How To"](https://www.youtube.com/playlist?list=PLdfopzFjkPz-xDXqAAc0Jrh1eumV4HNmX)
 
 ## Hello World Build and Deploy
 
