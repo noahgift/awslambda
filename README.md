@@ -9,7 +9,7 @@ Beginner’s Guide to Writing AWS Lambda Functions in Python
 
 ## Zero to One: AWS Lambda in Python and SAM 
 ![zero-to-one](https://user-images.githubusercontent.com/58792/113515280-81eae580-9541-11eb-844e-e6e2ce96d53b.jpg)
-* [AWS Lambda 2021 YouTube Playlist of "How To"](https://www.youtube.com/playlist?list=PLdfopzFjkPz-xDXqAAc0Jrh1eumV4HNmX)
+* [Zero to One: AWS Lambda in Python and SAM: AWS Lambda 2021 YouTube Playlist of "How To"](https://www.youtube.com/playlist?list=PLdfopzFjkPz-xDXqAAc0Jrh1eumV4HNmX)
 
 ## Hello World Build and Deploy
 
