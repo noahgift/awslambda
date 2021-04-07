@@ -3,7 +3,7 @@
 # AWS Lambda
 Beginner’s Guide to Writing AWS Lambda Functions in Python
 
-* [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb) or ][colab link](https://colab.research.google.com/drive/1Xm80CsieCvfc4VVqi5QmNkrirh2Oq-s5?usp=sharing)
+* [Beginning AWS Lambda Colab Notebook](https://github.com/noahgift/awslambda/blob/master/beginners_guide_aws_lambda.ipynb) or [colab link](https://colab.research.google.com/drive/1Xm80CsieCvfc4VVqi5QmNkrirh2Oq-s5?usp=sharing)
 * [PowerPoint Slides](https://github.com/noahgift/awslambda/blob/master/beginning_lambda.pptx?raw=true)
 * [Related Project Serverless Cookbook](https://github.com/noahgift/serverless-cookbook)
 
